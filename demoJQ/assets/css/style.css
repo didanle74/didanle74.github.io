@@ -1,0 +1,348 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+}
+
+body  {
+    width: 100%;
+    height: 100%;
+}
+
+.bg-white {
+    background-color: #FFFFFF !important;
+}
+
+.bg-gray-F1F1F1 {
+    background-color: #F1F1F1 !important;
+}
+
+.bg-gray-616161 {
+    background-color: #616161 !important;
+}
+
+.bg-dark-404040 {
+    background-color: #404040 !important;
+}
+
+.bg-black {
+    background-color: black !important;
+}
+
+.bg-transparent {
+    background-color: transparent !important;
+}
+
+/* end css background color */
+
+.text-dark-777777 {
+    color: #777777 !important;
+}
+
+.text-white-F0F0F0 {
+    color: #F0F0F0 !important;
+}
+
+.text-black {
+    color: black !important;
+}
+
+.font-lato {
+    font-family: 'Lato', sans-serif;
+}
+
+/* end css font family */
+
+.font-size-15 {
+    font-size: 15px !important;
+}
+
+.font-size-18 {
+    font-size: 18px !important;
+}
+
+.font-size-24 {
+    font-size: 24px !important;
+}
+
+.font-size-36 {
+    font-size: 36px;
+}
+
+/* end css font size */
+
+.letter-spacing-4 {
+    letter-spacing: 4px;
+}
+
+.letter-spacing-10 {
+    letter-spacing: 10px;
+}
+
+/* end css letter spacing */
+
+.py-12px {
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+}
+
+.py-16px {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+}
+
+.py-64px {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important;
+}
+
+
+
+.p-12-24 {
+    padding: 12px 24px !important;
+}
+
+.p-64-16 {
+    padding: 64px 16px !important;
+}
+
+/* end css padding */
+
+.my-10px {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.my-15px {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
+
+.my-16px {
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+}
+
+.my-18px {
+    margin-top: 18px !important;
+    margin-bottom: 18px !important;
+}
+/* end css margin */
+.border-radius-0 {
+    border-radius: 0 !important;
+}
+
+.border-radius-4px {
+    border-radius: 4px !important;
+}
+/* end css border */
+.header {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+.header .navbar {
+    height: 40px !important;
+}
+
+.header .navbar .navbar-toggler {
+    top: 8px;
+    right: 20px;
+    z-index: 2;
+}
+
+.header .wrapper {
+    height: 40px;
+    position: relative;
+    top: 0px;
+}
+
+.header .navbar .navbar-toggler:hover {
+    background-color: black;
+    color: white !important;
+}
+
+.header .btn-search:hover {
+    background-color: #F44336;
+    color: #FFFFFF;
+}
+
+.header .nav-item {
+    text-align: left;
+}
+
+.hover-cs:hover {
+    background-color: #CCCCCC;
+    color: black !important;
+}
+
+/* end css header */
+
+.banner-content {
+    background-image: url(/assets/images/parallax1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    height: 400px;
+}
+
+.banner2 .banner-content {
+    background-image: url(/assets/images/parallax2.jpg);
+    opacity: 0.8;
+}
+
+.banner3 .banner-content {
+    background-image: url(/assets/images/parallax3.jpg);
+    opacity: 0.8;
+}
+
+.banner .banner-content .jumbotron-text
+{
+    bottom: 175px;
+    /* left: calc(50% - 207px); */
+    z-index: 2;
+}
+
+.banner2 .banner-content .jumbotron-text
+{
+    bottom: 175px;
+    left: calc(50% - 115px);
+    z-index: 2;
+}
+
+.banner3 .banner-content .jumbotron-text
+{
+    bottom: 175px;
+    left: calc(50% - 136px);
+    z-index: 2;
+}
+
+.banner .banner-content .jumbotron-text#text2 {
+    display: none !important;
+}
+
+/* end css banner */
+
+.content {
+    max-width: 980px;
+}
+
+/* end css content */
+
+a.link-image:hover>img {
+    opacity: 0.6;
+}
+
+div.load-more:hover {
+    background-color: #CCCCCC !important;
+}
+
+/* css portfolio */
+
+.info i:hover {
+    color: black;
+}
+
+.line-height-32px {
+    line-height: 32px !important;
+}
+
+/* end css contact */
+
+.btn-send {
+    position: relative;
+    left: 73%;
+    bottom: 0;
+}
+
+.btn-send:hover {
+    background-color: #CCCCCC !important;
+    color: black !important;
+}
+
+.footer:hover {
+    background-color: black !important;
+}
+
+.footer .social i:hover{
+    opacity: 0.6 !important;
+    cursor: pointer;
+}
+
+.layer-top {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: black;
+}
+
+.layer-top .modal-content {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: calc(33% - 150px);
+    left: calc(50% - 200px);
+    z-index: 1001;
+}
+
+.layer-top .close-btn {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    top: 0;
+    right: 0;
+    z-index: 1002;
+}
+
+.layer-top .close-btn:hover {
+    background-color: #CCCCCC;
+    color: black !important;
+}
+
+@media screen and (max-width: 600px) {
+    .btn-search {
+        display: none !important;
+    }
+
+    /* .banner .banner-content .jumbotron-text#text1 {
+        display: none !important;
+    }
+
+    .banner .banner-content .jumbotron-text#text2 {
+        display: inline-block !important;
+        left: calc(50% - 110px);
+    } */
+
+    .btn-send {
+        left: 55%;
+    }
+    .header .wrapper {
+        height: 140px;
+        top: -8px;
+    }
+
+
+    .nav-item {
+        width: 100% !important;
+    }
+
+    .nav-link {
+        width: 100% !important;
+        display: block !important;
+    }
+
+    .header .navbar .navbar-toggler {
+        top: 4px;
+    }
+
+}
