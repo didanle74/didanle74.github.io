@@ -50,14 +50,14 @@ $(document).ready(function(){
     {
         if($('.banner').outerWidth() < 600)
         {
-            $('.jumbotron-text').text('MY LOGO');
+            $('.banner .jumbotron-text').text('MY LOGO');
         }
         else
         {
-            $('.jumbotron-text').text('MY WEBSITE LOGO');
+            $('.banner .jumbotron-text').text('MY WEBSITE LOGO');
         }
         var left = "" + 0.5*$('.banner').outerWidth() - $('.jumbotron-text').outerWidth()*0.5 + "px";
-        $('.jumbotron-text').css('left', left);
+        $('.banner .jumbotron-text').css('left', left);
     }, 10);
     $('.layer-top').hide();
 })
