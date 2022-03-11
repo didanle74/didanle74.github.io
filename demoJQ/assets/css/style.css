@@ -185,7 +185,7 @@ body  {
 /* end css header */
 
 .banner-content {
-    background-image: url(/demoJQ/);
+    background-image: url(/demoJQ/assets/images/parallax1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -194,12 +194,12 @@ body  {
 }
 
 .banner2 .banner-content {
-    background-image: url('/assets/images/parallax2.jpg');
+    background-image: url(/demoJQ/assets/images/parallax2.jpg);
     opacity: 0.8;
 }
 
 .banner3 .banner-content {
-    background-image: url('/assets/images/parallax3.jpg');
+    background-image: url(/demoJQ/assets/images/parallax3.jpg);
     opacity: 0.8;
 }
 
