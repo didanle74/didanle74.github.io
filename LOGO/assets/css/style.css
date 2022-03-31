@@ -100,7 +100,10 @@ body  {
     padding-top: 64px !important;
     padding-bottom: 64px !important;
 }
-
+.py-8px {
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+}
 
 
 .p-12-24 {
